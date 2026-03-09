@@ -20,7 +20,7 @@ This tool automates the process of mass onboarding new devices (hosts, switches,
 1. Install dependencies: 
    `pip install -r requirements.txt`
 2. Prepare your inventory file:
-   `cp hosts.example.yaml hosts-RO.yaml` (and edit it with your data)
+   `cp hosts_example.yaml hosts-RO.yaml` (and edit it with your data)
 3. Export your token: 
    `export ZABBIX_TOKEN="your_api_token_here"`
 4. Run the script: 
