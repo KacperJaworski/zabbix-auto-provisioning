@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Zabbix Mass Host Onboarding via JSON-RPC API
-Author: [Kacper Jaworski]
+Author: Kacper Jaworski
 """
 import os
 import sys
