@@ -77,13 +77,13 @@ def main():
         create_params = {
             "host": host['name'],
             "interfaces": [
-                {
-            "type": 1,
-            "main": 1,
-            "useip": 1,
-            "ip": host['ip'],
-            "dns": "",
-            "port": str(host['port'])
+            {
+                "type": 1,
+                "main": 1,
+                "useip": 1,
+                "ip": host['ip'],
+                "dns": "",
+                "port": str(host['port'])
             }
         ],
         "groups": [
